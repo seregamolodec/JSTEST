@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task8</title>
+</head>
+<body>
+    <h1>Zagolovok1</h1>
+   
+    <div>
+        <p id="first">Alef</p>
+        <a href="https://github.com">Github</a>
+    </div>
+    <h2>Zagolovok2</h2>
+    <div>
+            <p id="second">Bet</p>
+            <a href="https://google.com">Google</a>
+        </div>
+        <h3>Zagolovok3</h3>
+        <div>
+                <p id="third">Gimel</p>
+                <a href="http://bootstrap-3.ru">Bootstrap</a>
+            </div>
+            <h4>Zagolovok4</h4>
+            <div>
+                    <p id="fourth">Dalet</p>
+                    <a href="https://code.visualstudio.com/docs/?dv=win">Visual Studio Code</a>
+                </div>
+                <script>
+                    var userText = prompt("enter some text");
+        var arr = ["some text", "test"];
+        function arrayContains(text, arr) {
+            if (arr.indexOf(text) > -1) {
+                alert("There's such text in array");
+            } else {
+                alert("There's no such text in array");
+            }
+        }
+        arrayContains(userText, arr);
+                </script>
+</body>
+</html>
